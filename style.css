@@ -160,3 +160,36 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+.button-delete {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.button-delete:hover {
+    background-color: #cc0000;
+}
+
+/* Estilo para los elementos de la lista */
+.name-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    background-color: var(--color-white);
+    border-radius: 4px;
+    margin-bottom: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
