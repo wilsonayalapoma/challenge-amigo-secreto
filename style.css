@@ -193,3 +193,25 @@ ul {
     margin-bottom: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.header-banner {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0;
+    position: relative; /* Necesario si usas position:absolute en la imagen */
+}
+/* Estilo para la imagen que quieres mover */
+.header-banner img[alt="Imagen logo wap"] {
+    width: 444px; /* Ajusta el tamaño */
+    position: absolute;
+    left: 20px;  /* Distancia desde la derecha */
+    top: 18px;    /* Distancia desde arriba */
+}
+@media (max-width: 768px) {
+    .logo-wap {
+        width: 60px;
+        right: 10px;
+    }
+}
